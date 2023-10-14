@@ -429,3 +429,32 @@ footer {
     display: none;
   }
 }
+@media screen and (max-width: 728px)
+{
+  footer{
+    position: relative;
+    bottom: 0px;
+    
+  }
+
+ .main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.header-toolbar{
+overflow-x: scroll;
+
+
+}
+.header-toolbar{
+padding: 8px;
+font-size: 8px;
+  width: auto;
+  
+  }
+body{
+  font-size: 5px !important;
+}
+}
